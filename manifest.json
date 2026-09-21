@@ -1,0 +1,381 @@
+{
+  "source_base_path": "C:/projects/jeremyansel-directx-mediafoundation/JeremyAnsel.DirectX.MediaFoundation/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MF2DBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MF2DBuffer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MF2DBuffer",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.DirectX.MediaFoundation.MF2DBuffer.yml\" sourcestartlinenumber=\"1\">The IMF2DBuffer interface is supported by a media buffer whose multimedia data represents a 2D media type e.g. video.\nFor these media types it is important to know the &quot;pitch&quot; of the buffer which indicates the number of bytes required to go from\nscanline to scanline.  The IMF2DBuffer interface is obtained from a buffer by calling QueryInterface().\nFor each 2D media type a contiguous standard representation is defined which is designed to be compatible with the standard\nlayout of a DirectX surface when represented by system memory.  In this representation the surface pitch is always positive and\nequal to the number of bytes taken up by a single row of pixels padded out to a 4-byte boundary.</p>\n<p sourcefile=\"api/JeremyAnsel.DirectX.MediaFoundation.MF2DBuffer.yml\" sourcestartlinenumber=\"8\">Applications may still access 2D buffers using IMFBuffer::Lock().  In that case the data in the buffer will always be in the\nstandard contiguous format for the format of data represented by the buffer.  An internal copy may be required on IMFBuffer::Lock()\nand IMFBuffer::Unlock() to achieve this.  The copy will not occur if the buffer is already in the correct format.  When a copy occurs an\nevent will be generated to aid debugging performance issues resulting from the copy.  Components that process 2D data should aim to\nuse the IMF2DBuffer interface to access sample data.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFAttributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFAttributes",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.DirectX.MediaFoundation.MFAttributes.yml\" sourcestartlinenumber=\"1\">The IMFAttributes interface is a general-purpose interface for storing\nkey/value pairs, where the key is a GUID and the value is one of a\nsmall number of common data types, including UINT32, UINT64, double,\nGUID, Unicode string, and BLOB (counted array of UINT8).  In addition\nto the methods inherited from IUnknown, the IMFAttributes interface\nexposes the following methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFDXGIDeviceManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFDXGIDeviceManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFDXGIDeviceManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFFactory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFHelpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFHelpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.yml\" sourcestartlinenumber=\"1\">The IMFMediaBuffer interface represent a buffer of multimedia data\nfor any possible multimedia type.\nIt provides methods for accessing the buffer pointer, the current\nlength, and the maximum length of the buffer</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Image.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Image.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Image",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Video.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Video.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Video",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFMediaType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaTypeGuids.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaTypeGuids.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFMediaTypeGuids",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaTypeMajorGuids.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFMediaTypeMajorGuids.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFMediaTypeMajorGuids",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFReadWriteGuids.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFReadWriteGuids.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFReadWriteGuids",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSample.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFSample",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.DirectX.MediaFoundation.MFSample.yml\" sourcestartlinenumber=\"1\">The IMFSample interface represents a multimedia sample for a\nmultimedia stream type.  An typical example is a video frame,\nand a notable exception is audio where an IMFSample does not usually\nrepresent a single sample of audio, but rather a chunk\nof audio samples.  Note that this allows us to reduce the overhead for\nrepresenting audio in the pipeline.</p>\n<p sourcefile=\"api/JeremyAnsel.DirectX.MediaFoundation.MFSample.yml\" sourcestartlinenumber=\"8\">A sample may consist of a multiple buffers as is the case of compressed\naudio or video samples received from the network or being sent to an\nASF media sink or ASF multiplexer.</p>\n<p sourcefile=\"api/JeremyAnsel.DirectX.MediaFoundation.MFSample.yml\" sourcestartlinenumber=\"12\">The IMFAttributes interface can be used to tag the sample with extra\ninformation that is not represented by the IMFSample methods.\nThe MFSampleExtension_xxx GUIDs in mfapi.h define some standard\nattributes, but custom attributes are allowed and are preserved\nthrough the Media Foundation pipeline as well as possible.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSinkWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSinkWriter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFSinkWriter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSinkWriterGuids.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSinkWriterGuids.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFSinkWriterGuids",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSourceReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSourceReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFSourceReader",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.DirectX.MediaFoundation.MFSourceReader.yml\" sourcestartlinenumber=\"1\">The MF Source Reader provides a simple programming model that allows\napplications to easily access multimedia content from files or\ndevices.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderControlFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderControlFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderControlFlags",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderControlFlags.yml\" sourcestartlinenumber=\"1\">The enumeration type defines the various flags that can be passed\nto the Source Reader's ReadSample method.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderFlags",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderFlags.yml\" sourcestartlinenumber=\"1\">The enumeration type defines the various flags that can be returned\nfrom the MF Source Reader when retrieving the next sample.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderGuids.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderGuids.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderGuids",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFVideoInterlaceMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.MFVideoInterlaceMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation.MFVideoInterlaceMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.MediaFoundation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.MediaFoundation",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

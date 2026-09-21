@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class MFMediaBuffer </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class MFMediaBuffer ">
+    
+    <meta name="description" content="The IMFMediaBuffer interface represent a buffer of multimedia data for any possible multimedia type. It provides methods for accessing the buffer pointer, the current length, and the maximum length of the buffer">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.json">
+      <meta property="docfx:tocrel" content="toc.json">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../api/index.html" title="Api Documentation">Api Documentation</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation" title="Source Code">Source Code</a>
+                      </li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="JeremyAnsel.DirectX.MediaFoundation.html" title="JeremyAnsel.DirectX.MediaFoundation" class="">JeremyAnsel.DirectX.MediaFoundation</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MF2DBuffer.html" title="MF2DBuffer" class="">MF2DBuffer</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFAttributes.html" title="MFAttributes" class="">MFAttributes</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFDXGIDeviceManager.html" title="MFDXGIDeviceManager" class="">MFDXGIDeviceManager</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFFactory.html" title="MFFactory" class="">MFFactory</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFHelpers.html" title="MFHelpers" class="">MFHelpers</a>
+                          </li>
+                          <li class="active">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.html" title="MFMediaBuffer" class="active">MFMediaBuffer</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.html" title="MFMediaFormatGuids" class="">MFMediaFormatGuids</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.html" title="MFMediaFormatGuids.Audio" class="">MFMediaFormatGuids.Audio</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Image.html" title="MFMediaFormatGuids.Image" class="">MFMediaFormatGuids.Image</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Video.html" title="MFMediaFormatGuids.Video" class="">MFMediaFormatGuids.Video</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFMediaType.html" title="MFMediaType" class="">MFMediaType</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFMediaTypeGuids.html" title="MFMediaTypeGuids" class="">MFMediaTypeGuids</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFMediaTypeMajorGuids.html" title="MFMediaTypeMajorGuids" class="">MFMediaTypeMajorGuids</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFReadWriteGuids.html" title="MFReadWriteGuids" class="">MFReadWriteGuids</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFSample.html" title="MFSample" class="">MFSample</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFSinkWriter.html" title="MFSinkWriter" class="">MFSinkWriter</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFSinkWriterGuids.html" title="MFSinkWriterGuids" class="">MFSinkWriterGuids</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFSourceReader.html" title="MFSourceReader" class="">MFSourceReader</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderControlFlags.html" title="MFSourceReaderControlFlags" class="">MFSourceReaderControlFlags</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderFlags.html" title="MFSourceReaderFlags" class="">MFSourceReaderFlags</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFSourceReaderGuids.html" title="MFSourceReaderGuids" class="">MFSourceReaderGuids</a>
+                          </li>
+                          <li class="">
+                            <a href="JeremyAnsel.DirectX.MediaFoundation.MFVideoInterlaceMode.html" title="MFVideoInterlaceMode" class="">MFVideoInterlaceMode</a>
+                          </li>
+                        </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer">
+
+
+
+  <h1 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer" class="text-break">Class MFMediaBuffer</h1>
+  <div class="markdown level0 summary"><p>The IMFMediaBuffer interface represent a buffer of multimedia data
+for any possible multimedia type.
+It provides methods for accessing the buffer pointer, the current
+length, and the maximum length of the buffer</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">DXComObject</span></div>
+    <div class="level2"><span class="xref">MFMediaBuffer</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">DXComObject.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">DXComObject.AddRef()</span>
+    </div>
+    <div>
+      <span class="xref">DXComObject.Release()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">DXComObject.QueryInterface(in Guid)</a>
+    </div>
+    <div>
+      <span class="xref">DXComObject.Handle</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="JeremyAnsel.html">JeremyAnsel</a>.<a class="xref" href="JeremyAnsel.DirectX.html">DirectX</a>.<a class="xref" href="JeremyAnsel.DirectX.MediaFoundation.html">MediaFoundation</a></h6>
+  <h6><strong>Assembly</strong>: JeremyAnsel.DirectX.MediaFoundation.dll</h6>
+  <h5 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SecurityCritical]
+public class MFMediaBuffer : DXComObject, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/new/main/apiSpec/new?filename=JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer__ctor_System_IntPtr_.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.%23ctor(System.IntPtr)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/blob/main/JeremyAnsel.DirectX.MediaFoundation/JeremyAnsel.DirectX.MediaFoundation/MFMediaBuffer.cs/#L30">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer__ctor_" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.#ctor*"></a>
+  <h4 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer__ctor_System_IntPtr_" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.#ctor(System.IntPtr)">MFMediaBuffer(nint)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.html">MFMediaBuffer</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MFMediaBuffer(nint comPtr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></td>
+        <td><span class="parametername">comPtr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/new/main/apiSpec/new?filename=JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_MFMediaBufferGuid.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.MFMediaBufferGuid%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/blob/main/JeremyAnsel.DirectX.MediaFoundation/JeremyAnsel.DirectX.MediaFoundation/MFMediaBuffer.cs/#L22">View Source</a>
+  </span>
+  <h4 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_MFMediaBufferGuid" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.MFMediaBufferGuid">MFMediaBufferGuid</h4>
+  <div class="markdown level1 summary"><p>The interface GUID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Guid MFMediaBufferGuid</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/new/main/apiSpec/new?filename=JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_AsMF2DBuffer.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.AsMF2DBuffer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/blob/main/JeremyAnsel.DirectX.MediaFoundation/JeremyAnsel.DirectX.MediaFoundation/MFMediaBuffer.cs/#L150">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_AsMF2DBuffer_" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.AsMF2DBuffer*"></a>
+  <h4 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_AsMF2DBuffer" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.AsMF2DBuffer">AsMF2DBuffer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MF2DBuffer? AsMF2DBuffer()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="JeremyAnsel.DirectX.MediaFoundation.MF2DBuffer.html">MF2DBuffer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/new/main/apiSpec/new?filename=JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_GetCurrentLength.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.GetCurrentLength%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/blob/main/JeremyAnsel.DirectX.MediaFoundation/JeremyAnsel.DirectX.MediaFoundation/MFMediaBuffer.cs/#L111">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_GetCurrentLength_" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.GetCurrentLength*"></a>
+  <h4 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_GetCurrentLength" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.GetCurrentLength">GetCurrentLength()</h4>
+  <div class="markdown level1 summary"><p>The GetCurrentLength method returns the current length of the
+media buffer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GetCurrentLength()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_GetCurrentLength_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A returned value of zero bytes indicates a media buffer with
+no valid data (an empty buffer).</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/new/main/apiSpec/new?filename=JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_GetMaxLength.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.GetMaxLength%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/blob/main/JeremyAnsel.DirectX.MediaFoundation/JeremyAnsel.DirectX.MediaFoundation/MFMediaBuffer.cs/#L143">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_GetMaxLength_" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.GetMaxLength*"></a>
+  <h4 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_GetMaxLength" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.GetMaxLength">GetMaxLength()</h4>
+  <div class="markdown level1 summary"><p>The GetMaxLength method allows the caller to retrieve the maximum
+length of the buffer represented by the IMFMediaBuffer object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GetMaxLength()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/new/main/apiSpec/new?filename=JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_Lock_System_IntPtr__System_UInt32__System_UInt32__.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.Lock(System.IntPtr%40%2CSystem.UInt32%40%2CSystem.UInt32%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/blob/main/JeremyAnsel.DirectX.MediaFoundation/JeremyAnsel.DirectX.MediaFoundation/MFMediaBuffer.cs/#L67">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_Lock_" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.Lock*"></a>
+  <h4 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_Lock_System_IntPtr__System_UInt32__System_UInt32__" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.Lock(System.IntPtr@,System.UInt32@,System.UInt32@)">Lock(out nint, out uint, out uint)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Lock(out nint ppbBuffer, out uint pcbMaxLength, out uint pcbCurrentLength)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></td>
+        <td><span class="parametername">ppbBuffer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></td>
+        <td><span class="parametername">pcbMaxLength</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></td>
+        <td><span class="parametername">pcbCurrentLength</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/new/main/apiSpec/new?filename=JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_SetCurrentLength_System_UInt32_.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.SetCurrentLength(System.UInt32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/blob/main/JeremyAnsel.DirectX.MediaFoundation/JeremyAnsel.DirectX.MediaFoundation/MFMediaBuffer.cs/#L130">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_SetCurrentLength_" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.SetCurrentLength*"></a>
+  <h4 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_SetCurrentLength_System_UInt32_" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.SetCurrentLength(System.UInt32)">SetCurrentLength(uint)</h4>
+  <div class="markdown level1 summary"><p>The SetCurrentLength method allows the caller to set the current
+length of the media buffer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCurrentLength(uint cbCurrentLength)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></td>
+        <td><span class="parametername">cbCurrentLength</span></td>
+        <td><p>Current length of the media buffer in bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_SetCurrentLength_System_UInt32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method should be used anytime a client modifies the content
+of the media buffer in such a way that
+the length of valid data in the media buffer changes.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/new/main/apiSpec/new?filename=JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_Unlock.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.Unlock%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/blob/main/JeremyAnsel.DirectX.MediaFoundation/JeremyAnsel.DirectX.MediaFoundation/MFMediaBuffer.cs/#L94">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_Unlock_" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.Unlock*"></a>
+  <h4 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_Unlock" data-uid="JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer.Unlock">Unlock()</h4>
+  <div class="markdown level1 summary"><p>The Unlock method signals completion of the use of the
+buffer pointer acquired via the Lock method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Unlock()</code></pre>
+  </div>
+  <h5 id="JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer_Unlock_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The buffer pointer acquired via Lock can no longer be used
+once the caller signals completion of that
+usage via the Unlock call.
+Also, note that Unlock must be called the same number of
+times that Lock has been called in order to signal completion
+of the use of the buffer pointer.</p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/new/main/apiSpec/new?filename=JeremyAnsel_DirectX_MediaFoundation_MFMediaBuffer.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.MediaFoundation.MFMediaBuffer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.MediaFoundation/blob/main/JeremyAnsel.DirectX.MediaFoundation/JeremyAnsel.DirectX.MediaFoundation/MFMediaBuffer.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Copyright (c) 2026 J&eacute;r&eacute;my Ansel
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
