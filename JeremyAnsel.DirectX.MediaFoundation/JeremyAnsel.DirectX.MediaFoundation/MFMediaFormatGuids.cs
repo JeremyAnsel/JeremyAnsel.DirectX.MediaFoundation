@@ -86,6 +86,10 @@ public static class MFMediaFormatGuids
         public static readonly Guid Base = DEFINE_MEDIATYPE_GUID(0x00);
         public static readonly Guid PCM = DEFINE_MEDIATYPE_GUID(0x01);
         public static readonly Guid Float = DEFINE_MEDIATYPE_GUID(0x03);
+        public static readonly Guid MP3 = DEFINE_MEDIATYPE_GUID(0x0055);
+        public static readonly Guid AAC = DEFINE_MEDIATYPE_GUID(0x1610);
+        public static readonly Guid FLAC = DEFINE_MEDIATYPE_GUID(0xF1AC);
+        public static readonly Guid Opus = DEFINE_MEDIATYPE_GUID(0x704F);
     }
 
     public static class Image
