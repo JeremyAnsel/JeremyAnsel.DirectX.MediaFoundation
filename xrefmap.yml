@@ -1206,18 +1206,42 @@ references:
   commentId: T:JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio
   fullName: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio
   nameWithType: MFMediaFormatGuids.Audio
+- uid: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.AAC
+  name: AAC
+  href: api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.html#JeremyAnsel_DirectX_MediaFoundation_MFMediaFormatGuids_Audio_AAC
+  commentId: F:JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.AAC
+  fullName: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.AAC
+  nameWithType: MFMediaFormatGuids.Audio.AAC
 - uid: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.Base
   name: Base
   href: api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.html#JeremyAnsel_DirectX_MediaFoundation_MFMediaFormatGuids_Audio_Base
   commentId: F:JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.Base
   fullName: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.Base
   nameWithType: MFMediaFormatGuids.Audio.Base
+- uid: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.FLAC
+  name: FLAC
+  href: api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.html#JeremyAnsel_DirectX_MediaFoundation_MFMediaFormatGuids_Audio_FLAC
+  commentId: F:JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.FLAC
+  fullName: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.FLAC
+  nameWithType: MFMediaFormatGuids.Audio.FLAC
 - uid: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.Float
   name: Float
   href: api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.html#JeremyAnsel_DirectX_MediaFoundation_MFMediaFormatGuids_Audio_Float
   commentId: F:JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.Float
   fullName: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.Float
   nameWithType: MFMediaFormatGuids.Audio.Float
+- uid: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.MP3
+  name: MP3
+  href: api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.html#JeremyAnsel_DirectX_MediaFoundation_MFMediaFormatGuids_Audio_MP3
+  commentId: F:JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.MP3
+  fullName: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.MP3
+  nameWithType: MFMediaFormatGuids.Audio.MP3
+- uid: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.Opus
+  name: Opus
+  href: api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.html#JeremyAnsel_DirectX_MediaFoundation_MFMediaFormatGuids_Audio_Opus
+  commentId: F:JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.Opus
+  fullName: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.Opus
+  nameWithType: MFMediaFormatGuids.Audio.Opus
 - uid: JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.PCM
   name: PCM
   href: api/JeremyAnsel.DirectX.MediaFoundation.MFMediaFormatGuids.Audio.html#JeremyAnsel_DirectX_MediaFoundation_MFMediaFormatGuids_Audio_PCM
